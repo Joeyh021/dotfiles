@@ -14,8 +14,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
 antigen bundle rust
-antigen bundle cargo
-antigun bundle make
+antigen bundle make
 antigen bundle python
 antigen bundle pyenv
 antigen bundle poetry
