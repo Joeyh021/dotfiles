@@ -1,0 +1,32 @@
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
+[user]
+	name = Joey Harrison
+	email = joeyh021@icloud.com
+	username = joeyh021
+[pager]
+	branch = false
+[core]
+	editor = nano
+	pager = delta
+	excludesfile = ~/.gitignore
+[alias]
+	a = add --all
+	cm = commit -m
+	jlog = log --oneline --all --graph --color
+	rh = reset --hard
+	jclone = !sh -c 'git clone https://github.com/Joeyh021/$1' - 
+
+[interactive]
+    diffFilter = delta --color-only
+[add.interactive]
+    useBuiltin = false 
+[delta]
+    navigate = true    # use n and N to move between diff sections
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
