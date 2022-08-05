@@ -15,6 +15,7 @@
 [alias]
 	a = add --all
 	cm = commit -m
+	cam = commit -am
 	jlog = log --oneline --all --graph --color
 	rh = reset --hard
 	jclone = !sh -c 'git clone https://github.com/Joeyh021/$1' - 

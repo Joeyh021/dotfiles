@@ -13,8 +13,15 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
+antigen bundle rust
+antigen bundle cargo
+antigun bundle make
+antigen bundle python
+antigen bundle pyenv
+antigen bundle poetry
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle mac
 
 antigen theme romkatv/powerlevel10k
 
