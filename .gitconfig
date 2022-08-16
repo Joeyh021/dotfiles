@@ -18,6 +18,7 @@
 	cam = commit -am
 	jlog = log --oneline --all --graph --color
 	rh = reset --hard
+	pf = push --force-with-lease
 	jclone = !sh -c 'git clone https://github.com/Joeyh021/$1' - 
 
 [interactive]
